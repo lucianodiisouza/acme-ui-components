@@ -1,0 +1,17 @@
+{
+  "name": "acme-components",
+  "version": "1.0.0",
+  "description": "UI Component library",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel *.js *.css package.json --out-dir ../dist --copy-files"
+  },
+  "author": "Luciano dii Souza",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12"
+  }
+}
